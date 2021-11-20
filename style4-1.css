@@ -1,0 +1,31 @@
+#header {
+  border: 1px solid red;
+  background: darkred;
+  width: 715px;
+  height: 100px;
+}
+
+#menu {
+  border: 1px solid red;
+  background: oldlace;
+  width: 190px;
+  height: 300px;
+  float: left;
+  clear: left;
+}
+
+#content {
+  border: 1px solid red;
+  background: oldlace;
+  width: 525px;
+  height: 300px;
+}
+
+#footer {
+  border: 1px solid red;
+  background: darkred;
+  width: 715px;
+  height: 30px;
+  position: fixed;
+  top: 0px;
+}

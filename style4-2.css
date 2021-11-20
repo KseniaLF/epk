@@ -1,0 +1,48 @@
+div {
+  position: absolute;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+#scroll {
+  overflow: scroll;
+  top: 10%;
+  bottom: 10%;
+  left: 0;
+  right: 20%;
+}
+
+#hidden {
+  overflow: hidden;
+  top: 30%;
+  left: 10%;
+  width: 150px;
+  height: 100px;
+}
+
+#visible {
+  overflow: visible;
+  top: 150px;
+  right: 50px;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+#div1,
+#div2 {
+  width: 300px;
+  height: 300px;
+}
+
+#div1 {
+  top: 250px;
+  right: 250px;
+  background-image: url(/Star.png);
+}
+
+#div2 {
+  top: 250px;
+  left: 400px;
+  background-color: blue;
+  clip: rect(10px 240px 280px 20px);
+}
